@@ -5,7 +5,7 @@ require 'capistrano/setup'
 require 'capistrano/deploy'
 require 'capistrano/bundler'
 require 'capistrano/rvm'
-require 'capistrano/thin'
+require 'capistrano/puma'
 
 # Include tasks from other gems included in your Gemfile
 #

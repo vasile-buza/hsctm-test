@@ -50,10 +50,11 @@ group :development do
   gem 'capistrano-bundler'
   gem 'capistrano-rvm'
   gem 'capistrano-thin'
+  gem 'capistrano-puma'
 end
 
 # ember
 gem 'ember-cli-rails'
 
-gem 'thin'
+gem 'puma'
 
