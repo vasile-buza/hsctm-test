@@ -52,5 +52,5 @@ group :development do
 end
 
 # ember
-gem 'ember-cli-rails'
+#gem 'ember-cli-rails'
 
