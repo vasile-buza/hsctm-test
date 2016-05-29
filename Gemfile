@@ -49,8 +49,11 @@ group :development do
   gem 'capistrano-rails'
   gem 'capistrano-bundler'
   gem 'capistrano-rvm'
+  gem 'capistrano-thin'
 end
 
 # ember
 gem 'ember-cli-rails'
+
+gem 'thin'
 
