@@ -45,3 +45,6 @@ group :development do
   gem 'spring'
 end
 
+# ember
+gem 'ember-cli-rails'
+
