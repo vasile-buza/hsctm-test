@@ -47,6 +47,7 @@ group :development do
   #deployment
   gem 'capistrano'
   gem 'capistrano-rails'
+  gem 'capistrano-bundler'
 end
 
 # ember

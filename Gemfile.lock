@@ -177,6 +177,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   capistrano
+  capistrano-bundler
   capistrano-rails
   coffee-rails (~> 4.1.0)
   ember-cli-rails

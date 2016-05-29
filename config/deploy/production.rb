@@ -7,7 +7,8 @@ set :ssh_options, {
 server '23.92.65.226', port: 22, roles: [:web, :app, :db], primary: true
 
 set :application, 'HsctmTest'
-set :repository, 'git@github.com:vasile-buza/hsctm-test.git'
+set :repo_url, 'git@github.com:vasile-buza/hsctm-test.git'
+set :stage, :production
 
 set :deploy_to, '/home/hiscore/hsctm_test'
 set :scm, :git
